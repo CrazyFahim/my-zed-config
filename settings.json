@@ -1,0 +1,82 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+    "features": {
+        "inline_completion_provider": "none"
+        // "font": "Droid Sans Mono"
+    },
+    "base_keymap": "VSCode",
+    "ui_font_size": 17,
+    "buffer_font_size": 16,
+    "theme": {
+        "mode": "system",
+        "light": "Atelier Cave Dark",
+        "dark": "Yue Moon"
+    },
+    "autosave": "on_focus_change",
+    "terminal": {
+        "alternate_scroll": "off",
+        "blinking": "on",
+        "copy_on_select": false,
+        "env": {},
+        "font_family": "MesloLGS NF",
+        // "font_features": null,
+        "font_size": 16,
+        "option_as_meta": false,
+        "button": false,
+        "toolbar": {
+            "title": true
+        },
+        "working_directory": "current_project_directory"
+    },
+    // "ui_font_family": "Droid Sans Fallback",
+    "ui_font_family": "Source Code Pro",
+    "tab_size": 4,
+    "lsp": {
+        "pyright": {
+            "settings": {
+                "python.analysis": {
+                    "diagnosticMode": "workspace",
+                    "typeCheckingMode": "strict"
+                },
+                "python": {
+                    "pythonPath": "/usr/bin/python"
+                }
+            }
+        },
+        "jdtls": {
+            "settings": {
+                "java": {
+                    "home": "/usr/bin/java",
+                    "configuration": {
+                        "runtimes": [
+                            {
+                                "name": "JavaSE-22",
+                                "path": "/usr/bin/java",
+                                "default": true
+                            },
+                            {
+                                "name": "JavaSE",
+                                "path": "/usr/bin/java"
+                            }
+                        ]
+                    },
+                    "errors": {
+                        "incompleteClasspath": {
+                            "severity": "ignore"
+                        }
+                    },
+                    "trace": {
+                        "server": "verbose"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+[
+    {
+      "context": "Workspace",
+      "bindings": {
+        "alt-a": ["task::Spawn", { "task_name": "run file" }]
+      }
+    }
+  ]
