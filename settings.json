@@ -8,16 +8,18 @@
 // from the command palette or from `Zed` application menu.
 {
     "features": {
-        "inline_completion_provider": "none"
-        // "font": "Droid Sans Mono"
+        "inline_completion_provider": "none",
+        "font": "Droid Sans Mono"
     },
+    "multi_cursor_modifier": "cmd_or_ctrl",
+    "cursor_blink": true,
     "base_keymap": "VSCode",
     "ui_font_size": 17,
     "buffer_font_size": 16,
     "theme": {
         "mode": "system",
         "light": "Atelier Cave Dark",
-        "dark": "Yue Moon"
+        "dark": "Xcalibur"
     },
     "autosave": "on_focus_change",
     "terminal": {
@@ -35,8 +37,10 @@
         },
         "working_directory": "current_project_directory"
     },
+    "buffer_font_family": "MesloLGM Nerd Font",
+    // "buffer_font_family": "Droid Sans Fallback",
     // "ui_font_family": "Droid Sans Fallback",
-    "ui_font_family": "Source Code Pro",
+    // "ui_font_family": "Latin Modern Roman Demi",
     "tab_size": 4,
     "lsp": {
         "pyright": {
